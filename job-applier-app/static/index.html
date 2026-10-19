@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Job Applier · Central de candidaturas</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+  <aside>
+    <a class="brand" href="/"><span>JA</span><div><strong>Aplicador</strong><small>Seu próximo passo em dados</small></div></a>
+    <nav aria-label="Navegação principal"><button class="nav active" data-view="jobs">Visão geral</button><button class="nav" data-view="history">Histórico de execuções</button><button class="nav" data-view="profile">Perfil e respostas</button></nav>
+    <div class="aside-note"><span class="dot green"></span> Execução local<p>LinkedIn · Candidatura Simplificada</p></div>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">CENTRAL DE CANDIDATURAS</p><h1 id="page-title">Suas oportunidades em dados</h1><p class="subtitle">Da busca ao envio, com cada etapa à vista.</p></div><div class="connection"><span id="connection-dot" class="dot"></span><span id="connection-label">Conectando…</span><small id="last-update"></small></div></header>
+    <div id="error-banner" class="alert hidden" role="alert"></div>
+    <div class="toolbar"><div class="toolbar-info"><strong>Dados, engenharia e automação</strong><span id="search-policy">São Paulo e região · Remoto no Brasil · Últimas 24h</span></div><div class="toolbar-actions"><button id="refresh" class="btn secondary">↻ Atualizar painel</button><button id="find-jobs" class="btn secondary">Só buscar</button><button id="retry-pending" class="btn secondary">Retomar pendentes</button><button id="run-automatic" class="btn primary">Buscar e candidatar <span aria-hidden="true">↗</span></button></div></div>
+    <section id="summary" class="summary" aria-label="Resumo do histórico"></section>
+    <section id="jobs-view">
+    <section id="pending-notice" class="card hidden"><p class="eyebrow">AGUARDANDO VOCÊ</p><h2>Há perguntas para responder</h2><p class="muted">Complete ou corrija as informações para continuar as candidaturas.</p><button id="open-answers" class="btn primary">Responder perguntas</button></section>
+      <section class="execution card" aria-label="Andamento da execução">
+        <div class="section-heading"><div><p class="eyebrow">EXECUÇÃO ATUAL</p><h2 id="automatic-status" aria-live="polite">Pronto para começar</h2></div><span id="run-badge" class="badge neutral">Aguardando</span></div>
+        <p id="automatic-detail" class="muted">Inicie uma busca para acompanhar as oportunidades.</p>
+        <ol id="steps" class="steps"><li data-step="search">Buscar vagas</li><li data-step="evaluate">Analisar perfil</li><li data-step="apply">Preencher e enviar</li><li data-step="finish">Concluir</li></ol>
+        <div class="progress-meta"><span id="progress-label">Nenhuma execução em andamento</span><span id="progress-value"></span></div><div id="progress" class="progress" role="progressbar" aria-label="Progresso da etapa" aria-valuemin="0" aria-valuemax="100"><div id="progress-fill"></div></div>
+        <div class="execution-footer"><span id="schedule-label" class="muted"></span><button id="stop-automatic" class="btn danger" hidden>Interromper execução</button></div>
+      </section>
+      <div class="live-grid">
+        <section class="card audit-card"><div class="section-heading"><div><p class="eyebrow">ÚLTIMA BUSCA</p><h2>O que encontramos</h2></div><span id="audit-count" class="badge neutral">0 analisadas</span></div><p class="muted">Abra uma análise para ver a nota e os critérios.</p><div class="filters" id="audit-filters"><button class="filter active" data-audit="all">Todas</button><button class="filter" data-audit="eligible">Compatíveis</button><button class="filter" data-audit="rejected">Não selecionadas</button></div><div id="audit-list" class="audit-list"></div></section>
+        <section class="card activity-card"><div class="section-heading"><div><p class="eyebrow">ACOMPANHAMENTO</p><h2>Atividade ao vivo</h2></div><span id="live-indicator" class="live-indicator"><span class="dot"></span> Em espera</span></div><p class="muted">Atualiza automaticamente a cada 2 segundos.</p><div id="activity-feed" class="activity-feed" role="log" aria-label="Eventos da execução"></div></section>
+      </div>
+      <section class="card applications-card"><div class="section-heading"><div><p class="eyebrow">HISTÓRICO DE CANDIDATURAS</p><h2>Vagas registradas</h2></div><input id="search" type="search" aria-label="Filtrar cargo ou empresa" placeholder="Buscar cargo ou empresa…"></div><div class="filters" id="job-filters"><button class="filter active" data-status="">Todas</button><button class="filter" data-status="Enviada">Enviadas</button><button class="filter" data-status="Aguardando aprovação">Pendentes</button><button class="filter" data-status="Nova">Novas</button></div><div id="jobs" class="jobs"></div></section>
+    </section>
+    <section id="history-view" class="hidden"><section class="card"><p class="eyebrow">REGISTROS SALVOS</p><h2>Histórico de execuções</h2><p class="muted">Consulte envios confirmados, pendências e falhas de cada lote.</p><div id="history-list"></div></section></section>
+    <section id="profile-view" class="hidden"><div id="profile"></div></section>
+  </main>
+  <dialog id="answers-modal" aria-labelledby="pending-title"><button id="close-answers" class="close" aria-label="Responder depois">×</button><section id="pending-answers" aria-live="polite"></section></dialog>
+  <dialog id="modal"><button class="close" aria-label="Fechar">×</button><div id="modal-content"></div></dialog><div id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body></html>

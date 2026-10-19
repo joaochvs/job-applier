@@ -1,0 +1,19 @@
+{
+  "name": "job-applier-app",
+  "version": "1.0.0",
+  "description": "Aplicador local de vagas do LinkedIn com matching por regras, painel e perguntas interativas.",
+  "scripts": {
+    "test": "node --test test_answers.js test_forms.js test_submission.js test_job_page.js test_matching.js test_dashboard.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

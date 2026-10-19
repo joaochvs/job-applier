@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source": "Informações revisadas pelo usuário nesta instalação",
+  "profile": {
+    "full_name": "",
+    "email": "",
+    "phone_country": "Brasil (+55)",
+    "phone": "",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brasil",
+    "linkedin": "",
+    "github": "",
+    "current_title": "",
+    "current_company": "",
+    "currently_employed": null,
+    "english_level": null,
+    "highest_education": null,
+    "institution": null,
+    "education_end_year": null,
+    "education_completed": null,
+    "total_data_experience_years": null
+  },
+  "skills": {},
+  "keyword_answers": [],
+  "custom_answers": [],
+  "always_ask": {},
+  "application_defaults": {}
+}

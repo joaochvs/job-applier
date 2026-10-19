@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "hour": 11,
+  "minute": 0,
+  "timezone": "America/Sao_Paulo",
+  "max_applications": 10,
+  "min_score": 75,
+  "platform": "LinkedIn Simplificada",
+  "search": {
+    "hours": 24,
+    "max_candidates": 40,
+    "pages_per_query": 1
+  }
+}

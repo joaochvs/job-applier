@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "source": "DADOS FICTÍCIOS DE TESTE. Não utilizar em candidaturas reais.",
+  "profile": {
+    "full_name": "Pessoa de Teste",
+    "email": "candidate@example.com",
+    "phone_country": "Brasil (+55)",
+    "phone": "11000000000",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brasil",
+    "linkedin": "",
+    "github": "",
+    "current_title": "Analista de Teste",
+    "current_company": "Empresa Exemplo",
+    "currently_employed": null,
+    "english_level": "Intermediário",
+    "highest_education": null,
+    "institution": null,
+    "education_end_year": null,
+    "education_completed": null,
+    "total_data_experience_years": 2,
+    "power_bi_experience_years": 2,
+    "sql_experience_years": 2,
+    "python_experience_years": 2,
+    "excel_experience_years": 2
+  },
+  "skills": {
+    "power_bi": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "powerpoint": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "dax": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "power_query": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "sql": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "python": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "excel": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "data_modeling": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "dashboards": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "kpis": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "etl": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "apis": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "postgresql": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "mysql": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "git_github": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "looker_studio": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "advanced_power_bi_and_excel": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    },
+    "statistical_analysis": {
+      "answer": "Sim",
+      "automatic": true,
+      "experience_years": 2,
+      "evidence": "Exemplo fictício para teste automatizado."
+    }
+  },
+  "keyword_answers": [],
+  "custom_answers": [],
+  "always_ask": {},
+  "application_defaults": {
+    "salary_expectation": {
+      "monthly_brl": 4500
+    },
+    "onsite_sao_paulo_region": true
+  }
+}

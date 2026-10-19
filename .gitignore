@@ -1,0 +1,35 @@
+# Dependências e artefatos locais
+/data/
+/job-applier-app/automation.json
+.venv/
+browser-profile/
+node_modules/
+__pycache__/
+*.py[cod]
+.browser-profile/
+runtime/
+output/
+tmp/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+
+# Dados e documentos pessoais
+*.pdf
+!job-applier-app/fixtures/resume.pdf
+*.docx
+*.csv
+*.xlsx
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# Configurações de ferramentas e sistema
+.codex/
+.vscode/
+.DS_Store
+Thumbs.db
